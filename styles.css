@@ -1,5 +1,5 @@
 body{
-backgrouAnd-image:linear-gradient(white,lightgrey);
+/*background-image:linear-gradient(lightgrey,white);*/
 font-family: 'Open Sans', sans-serif;
 
 }
@@ -12,6 +12,8 @@ h1{
   margin: 5% 10% 2% 10%;
   padding:5%;
   border-radius:10px;
+  border:1px solid #243341;
+
 }
 textarea{
   margin:20px;
@@ -32,6 +34,7 @@ textarea{
   min-height:250px;
 }
 .push{
+  width:60%;
   margin:10px;
   margin-left:20%;
   padding:10px;
@@ -40,8 +43,9 @@ textarea{
   background-color:white;
 }
 .del{
+  width:60%;
   margin:10px;
-  margin-left:30%;
+  margin-left:20%;
   padding:10px;
   font-size:85%;
   cursor:pointer;
