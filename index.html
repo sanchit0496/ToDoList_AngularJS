@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>  
+  
+<div ng-app="myApp" class="area">  
+<div ng-controller="myController"> 
+ 
+<center><h1>Angular JS - ToDo List</h1></center>
+  
+  <div class="list">
+   <div class="listinfo"><li ng-repeat="x in names">
+    {{x | exampleArray}}
+</li>
+</ul></div>
+  </div>
+  
+  <textarea placeholder="Enter Task" type="text" name="arrExample" ng-model="arrInput"></textarea><br>
+ <button class="push" ng-click='pushInArray()' >Enter to the List</button>
+   <button class="del" ng-click='delFromArray()' >Delete from the List</button><br>
+</div> 
+</div>
+
+  </body>  
+</html>  
