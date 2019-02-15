@@ -1,5 +1,5 @@
 body{
-background-image:linear-gradient(white,whitesmoke);
+backgrouAnd-image:linear-gradient(white,lightgrey);
 font-family: 'Open Sans', sans-serif;
 
 }
@@ -20,6 +20,7 @@ textarea{
   margin-left:20%;
   font-size:90%;
   height:80px;
+  padding:10px;
 }
 .list{
   background-color:whitesmoke;
@@ -32,17 +33,25 @@ textarea{
 }
 .push{
   margin:10px;
-  width:20%;
   margin-left:20%;
   padding:10px;
-  font-size:95%;
+  font-size:85%;
   cursor:pointer;
+  background-color:white;
 }
 .del{
   margin:10px;
-  width:20%;
-  margin-left:18.5%;
+  margin-left:30%;
   padding:10px;
-  font-size:95%;
+  font-size:85%;
   cursor:pointer;
+  background-color:white;
+}
+li{
+  list-style:none;
+}
+.listinfo{
+  padding:3.5%;
+font-family: 'Satisfy', cursive;
+  font-size:140%;
 }
