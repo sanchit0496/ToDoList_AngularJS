@@ -3,8 +3,11 @@
 <head>
  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
-  <script src = "app.js"></script>
+ <link href="https://fonts.googleapis.com/css?family=Leckerli+One|Satisfy" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+
 
 </head>
 <body>  
@@ -15,15 +18,18 @@
 <center><h1>Angular JS - ToDo List</h1></center>
   
   <div class="list">
-   <div class="listinfo"><li ng-repeat="x in names">
-    {{x | exampleArray}}
-</li>
-</ul></div>
+   <div class="listinfo">
+<ul>   
+     <li ng-repeat="x in exampleArray">
+   <i class="far fa-check-circle"></i> {{x}}
+    </li>
+</ul>
+  </div>
   </div>
   
   <textarea placeholder="Enter Task" type="text" name="arrExample" ng-model="arrInput"></textarea><br>
- <button class="push" ng-click='pushInArray()' >Enter to the List</button>
-   <button class="del" ng-click='delFromArray()' >Delete from the List</button><br>
+ <button class="push btn" ng-click='pushInArray()' >Enter to the List</button>
+   <button class="del btn" ng-click='delFromArray()' >Delete from the List</button><br>
 </div> 
 </div>
 
